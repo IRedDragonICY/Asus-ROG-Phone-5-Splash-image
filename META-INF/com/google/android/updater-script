@@ -1,0 +1,9 @@
+package_extract_file("firmware-update/uefisecapp.img", "/dev/block/bootdevice/by-name/uefisecapp_a");
+package_extract_file("firmware-update/uefisecapp.img", "/dev/block/bootdevice/by-name/uefisecapp_b");
+package_extract_file("firmware-update/xbl.img", "/dev/block/bootdevice/by-name/xbl_a");
+package_extract_file("firmware-update/xbl.img", "/dev/block/bootdevice/by-name/xbl_b");
+package_extract_file("firmware-update/xbl_config.img", "/dev/block/bootdevice/by-name/xbl_config_a");
+package_extract_file("firmware-update/xbl_config.img", "/dev/block/bootdevice/by-name/xbl_config_b");
+ui_print("Asus ROG Phone 5 Splash Screen by Ndik");
+package_extract_file("logo.img", "/dev/block/bootdevice/by-name/logo");
+ui_print("Finished");
